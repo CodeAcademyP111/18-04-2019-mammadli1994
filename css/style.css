@@ -1,0 +1,67 @@
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.btn-green {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.btn-gray {
+    color: white;
+    background-color: #616161;
+}
+
+#facebook-link {
+    text-decoration: none;
+    color: white;
+    background-color: #3b5998;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.students {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.students td,
+.students th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.students tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.cities {
+    padding: 0px;
+    width: 150px;
+}
+
+.cities>li {
+    color: white;
+    background-color: #3b5998;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cities>li ol {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.cities>li ol li {
+    padding: 10px 5px;
+    background-color: #616161;
+    margin-bottom: 5px;
+}
